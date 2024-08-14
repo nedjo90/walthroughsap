@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The UI5 walkthrough application",
   "scripts": {
-         "start": "concurrently \"ui5 serve --port 8080\" \"browser-sync start --proxy 'localhost:8080' --files 'webapp/**/*'\""
+         "start": "concurrently \"ui5 serve --port 8080\" \"browser-sync start --proxy 'localhost:8080' --files 'webapp/**/*' --inject-changes\""
   },
   "devDependencies": {
     "@ui5/cli": "^4.0.4",
